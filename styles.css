@@ -8,7 +8,7 @@
 
 body {
   max-width: 375px;
-  min-height: 214vh;
+  min-height: 100vh;
   margin: 0 auto;
 }
 
@@ -16,16 +16,15 @@ body::after {
   content: url(./images/bg-pattern-top-mobile.svg);
   position: absolute;
   top: 0;
-  left: 400px;
+  left: 0;
 }
 
-/* body::before {
+body::before {
   content: url(./images/bg-pattern-bottom-mobile.svg);
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: black;
-}  */
+} 
 
 .header {
   width: 100%;
@@ -79,7 +78,7 @@ body::after {
   font-size: 1.1rem;
 }
 
-.container__card {
+.card__container {
   height: 890px;
   margin: 1em 1.5rem;
   display: flex;
@@ -131,8 +130,23 @@ body::after {
 @media (min-width: 376px) {
   body {
     max-width: 1440px;
-    min-height: 100vh;
+    min-height: 50vh;
   }
+
+  body::after {
+    content: url(./images/bg-pattern-top-mobile.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  body::before {
+    content: url(./images/bg-pattern-bottom-mobile.svg);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  } 
+  
 
   .header {
     display: flex;
@@ -152,7 +166,6 @@ body::after {
   .header__title h1 {
     font-size: 3rem;
     text-align: inherit;
-    /* margin: 2rem 4rem 0.5rem 4rem; */
     margin: 0 0 .8rem 0;
   }
 
@@ -164,8 +177,6 @@ body::after {
   }
 
   .container__review {
-    /* width: 673px; */
-    width: auto;
     height: 252px;
     margin-right: 8rem;
   }
@@ -196,10 +207,10 @@ body::after {
     margin-right: 4rem;
   }
 
-  .container__card {
+  .card__container {
     flex-direction: row;
     justify-content: space-between;
-    height:280px;
+    height:310px;
     margin: 0 8rem;
   }
 
