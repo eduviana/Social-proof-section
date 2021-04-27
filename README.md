@@ -48,7 +48,7 @@ Los usuarios deben poder:
 
  - Comencé a utilizar la unidad de medida relativa "em" para todas aquellas propiedades que cambian con el font-size del elemento (por lo general en el eje vertical) y "rem" para las propiedades que no varían con el font-size del elemento (eje horizontal).
 
-- Dejé de utilizar la unidad de medida viewport-height y viewport-width para definir tamañanos absolutos, los utilizo para definir tamaños mínimmos y maximos.
+- Dejé de utilizar la unidad de medida viewport-height y viewport-width para definir tamañanos absolutos, los utilizo para definir tamaños mínimos y máximos.
 
 - Aprendí a utilizar la pseudo-clase nth-child y a seleccionar un elemento particular del mismo con de la siguiente manera: 
   .card:nth-child(0n+ numero-del-elemento) {}
