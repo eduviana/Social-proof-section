@@ -50,7 +50,7 @@ Los usuarios deben poder:
 
 - Dejé de utilizar la unidad de medida viewport-height y viewport-width para definir tamañanos absolutos, los utilizo para definir tamaños mínimos y máximos.
 
-- Aprendí a utilizar la pseudo-clase nth-child y a seleccionar un elemento particular del mismo con de la siguiente manera: 
+- Aprendí a utilizar la pseudo-clase nth-child y a seleccionar un elemento particular del mismo de la siguiente manera: 
   .card:nth-child(0n+ numero-del-elemento) {}
 
 ### Desarrollo-continuo
